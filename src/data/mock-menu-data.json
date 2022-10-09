@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Option 1",
+    "iconClass": "fas fa-seedling",
+    "divider": false
+  },
+  {
+    "title": "Option 2",
+    "iconClass": "fas fa-plus",
+    "divider": false
+  },
+  {
+    "title": "Option 3",
+    "iconClass": "fas fa-check",
+    "divider": false
+  }
+  ,
+  {
+    "title": "Sign out",
+    "iconClass": "fas fa-sign-out-alt",
+    "divider": true
+  }
+]

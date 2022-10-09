@@ -1,0 +1,32 @@
+{
+  "name": "eng-candidate-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "postcss:watch": "postcss src/styles/base.css -o src/styles/tailwind.css -w",
+    "postcss:build": "postcss src/styles/base.css -o src/styles/tailwind.css",
+    "start": "parcel ./index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.5",
+    "autoprefixer": "^10.2.5",
+    "parcel": "^2.0.0-beta.2",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.1.2",
+    "typescript": "^4.2.4"
+  }
+}

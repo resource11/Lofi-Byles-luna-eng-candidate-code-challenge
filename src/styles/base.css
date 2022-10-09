@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Graphik', sans-serif;
+}
+
+@tailwind utilities;
